@@ -1,0 +1,10 @@
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\bin\Debug\netcoreapp3.1\SentimentCore.deps.json
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\bin\Debug\netcoreapp3.1\SentimentCore.dll
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\bin\Debug\netcoreapp3.1\SentimentCore.pdb
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.AssemblyInfoInputs.cache
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.AssemblyInfo.cs
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.csproj.CoreCompileInputs.cache
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.dll
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.pdb
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.csproj.AssemblyReference.cache
+C:\Users\makom\Downloads\SentimentDatasetGenerator_20220928\SentimentDatasetGenerator\SentimentCore\obj\Debug\netcoreapp3.1\SentimentCore.GeneratedMSBuildEditorConfig.editorconfig

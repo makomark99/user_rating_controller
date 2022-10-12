@@ -1,0 +1,40 @@
+﻿@model SentimentBusinessLogic.ViewModels.SentenceIndexViewModel
+
+<h1>Új mondat felvitele</h1>
+<br />
+A kívánt mondat szövege: <input type="text" id="txtSentence" />
+<input type="button" value="Mentés..." onclick="OnClick_Save()" />
+
+<hr />
+@using(Html.BeginForm("UploadFile", "Sentence", FormMethod.Post, new { enctype="multipart/form-data"}))
+{
+    <div>
+        @Html.TextBox("file", "", new {  type= "file" }) <br />
+        <input type="submit" value="Upload" />
+    </div>
+}
+
+<script type="text/javascript">
+
+    function OnClick_Save() {
+        var text = $("#txtSentence").val();
+        if(text.match(/\S/)) {          //bármi ami nem white-space
+            $.post('@Url.Action("SaveNewSentence")', 
+            {
+                'text': text
+            }, function(result) {
+                if(result.isSuccess) {
+                    alert('A mentés sikerült!');
+                    debugger;
+                    $("#txtSentence").val('');
+                } else {
+                    alert('Hiba történt, kérem jelezze az adminisztrátornak, vagy próbálkozzon később!');
+                }
+            });
+        }
+        else {
+            alert('Kérem adjon meg egy mondatot!');
+        }
+    }
+
+</script>

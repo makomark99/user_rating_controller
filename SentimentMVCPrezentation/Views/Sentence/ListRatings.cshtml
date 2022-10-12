@@ -1,0 +1,22 @@
+﻿@model SentimentBusinessLogic.ViewModels.ListRatingsViewModel
+
+<h1>Mondatok</h1>
+
+@Html.ActionLink("Download CSV", "DownloadCsv")
+<table>
+    <thead>
+        <tr>
+            <th>Sentence Text</th>
+            <th>Calculated Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.SentenceTextWithRatings)
+        {
+            <tr>
+                <td>@item.Text</td>
+                <td>@item.RatingValue</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentBusinessLogic\\SentimentBusinessLogic.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentBusinessLogic\\SentimentBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentBusinessLogic\\SentimentBusinessLogic.csproj",
+        "projectName": "SentimentBusinessLogic",
+        "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentBusinessLogic\\SentimentBusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\makom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentBusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\makom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj": {
+                "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj"
+              },
+              "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentDataAccess\\SentimentDataAccess.csproj": {
+                "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentDataAccess\\SentimentDataAccess.csproj"
+              },
+              "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj": {
+                "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj",
+        "projectName": "SentimentCore",
+        "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj",
+        "packagesPath": "C:\\Users\\makom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\makom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            },
+            "Unity.Abstractions": {
+              "target": "Package",
+              "version": "[5.11.7, )"
+            },
+            "Unity.Container": {
+              "target": "Package",
+              "version": "[5.11.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentDataAccess\\SentimentDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentDataAccess\\SentimentDataAccess.csproj",
+        "projectName": "SentimentDataAccess",
+        "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentDataAccess\\SentimentDataAccess.csproj",
+        "packagesPath": "C:\\Users\\makom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\makom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj": {
+                "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentCore\\SentimentCore.csproj"
+              },
+              "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj": {
+                "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj",
+        "projectName": "SentimentModel",
+        "projectPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\SentimentModel.csproj",
+        "packagesPath": "C:\\Users\\makom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\makom\\Downloads\\SentimentDatasetGenerator_20220928\\SentimentDatasetGenerator\\SentimentModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\makom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

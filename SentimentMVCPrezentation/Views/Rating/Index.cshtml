@@ -1,0 +1,89 @@
+﻿@model SentimentBusinessLogic.ViewModels.AddRatingViewModel
+<style>
+    body{
+        background-color:burlywood;
+        color:black;
+    }
+    input[type="button"]:hover{
+        border:2px dashed black;
+        opacity:80%;
+        box-shadow:8px 8px 6px black;
+    }
+    h1{
+        text-shadow:8px 20px 20px black;
+    }
+</style>
+
+
+
+<input type="hidden" id="SentenceOID" value="@Model.SentenceOID" />
+<input type="hidden" id="SentimentUserOID" value="@Model.SentimentUserOID" />
+<div style="margin:auto; text-align:center; margin-top:30px; height:300px;">
+    <h1 style="margin-bottom:40px;">Értékelések ellenőrzése</h1>
+    <div style="height:100px">
+        <h2 style="margin-bottom:10px;">@Model.SentenceText</h2>
+    </div>
+    <br/>
+    <div style="height:30%">
+    <input class="btn btn-outline-success " style="color:black; border-radius:10px; background-color:limegreen" type="button" value="POZITÍV" onclick="OnClick_PositiveRating()" />
+        <input class=" btn btn-outline-danger" style="color:black;border-radius:10px; background-color:orangered" type="button" value="NEGATÍV" onclick="OnClick_NegativeRating()" />
+        <input class="btn btn-outline-info" style="color:black;border-radius:10px; background-color:dodgerblue" type="button" value="NEM TUDOM" onclick="OnClick_IDontKnowRating()" />
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function OnClick_PositiveRating() {
+        var sentenceOid = $("#SentenceOID").val();
+        var sentimentUserOid = $("#SentimentUserOID").val();
+        $.post('@Url.Action("SaveNewRating")', 
+        {
+            'sentenceOid': sentenceOid,
+            'sentimentUserOid': sentimentUserOid,
+            'rating': true
+        }, function(result) {
+            if(result.isSuccess){
+                window.location.reload();
+            }
+            else {
+                alert('Hiba történt, kérem vagye fel a kapcsolatot az adminisztrátorral.');
+            }
+        });
+    }
+
+    function OnClick_NegativeRating() {
+        var sentenceOid = $("#SentenceOID").val();
+        var sentimentUserOid = $("#SentimentUserOID").val();
+        $.post('@Url.Action("SaveNewRating")', 
+        {
+            'sentenceOid': sentenceOid,
+            'sentimentUserOid': sentimentUserOid,
+            'rating': false
+        }, function(result) {
+            if(result.isSuccess){
+                window.location.reload();
+            }
+            else {
+                alert('Hiba történt, kérem vagye fel a kapcsolatot az adminisztrátorral.');
+            }        });
+    }
+
+    function OnClick_IDontKnowRating() {
+        var sentenceOid = $("#SentenceOID").val();
+        var sentimentUserOid = $("#SentimentUserOID").val();
+        $.post('@Url.Action("SaveNewRating")', 
+        {
+            'sentenceOid': sentenceOid,
+            'sentimentUserOid': sentimentUserOid
+        }, function(result) {
+            if(result.isSuccess){
+                window.location.reload();
+            }
+            else {
+                alert('Hiba történt, kérem vagye fel a kapcsolatot az adminisztrátorral.');
+            }
+        });
+    }
+
+
+</script>
